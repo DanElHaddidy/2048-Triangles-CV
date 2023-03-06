@@ -159,7 +159,7 @@ public class GameLogic {
             }
         }
 
-        Log.d(TAG, "addingOfTriangles: ");
+        Log.d(TAG, "addingOfTriangles");
 
     }
 
@@ -189,7 +189,7 @@ public class GameLogic {
             currentRow++;
         }
 
-        Log.d(TAG, "checkIfValueMatching: ");
+        Log.d(TAG, "checkIfValueMatching");
 
         return idsWithValueMatching;
     }
@@ -243,7 +243,7 @@ public class GameLogic {
             }
         }
 
-        Log.d(TAG, "movingValuesToEmptyFields: SumCheck: ");
+        Log.d(TAG, "movingValuesToEmptyFields");
         return afterMovingMatchingValues;
     }
 
@@ -338,7 +338,7 @@ public class GameLogic {
             }
             return idsPaths;
         }
-        Log.d(TAG, "movingValuesToEmptyFields: SumCheck: ");
+        Log.d(TAG, "movingValuesToEmptyFields");
         return null;
     }
 
@@ -383,7 +383,7 @@ public class GameLogic {
                 }
             }
         }
-        Log.d(TAG, "canMove: SumCheck: ");
+        Log.d(TAG, "canMove:");
         return false;
     }
 
@@ -413,7 +413,7 @@ public class GameLogic {
             }
         }
 
-        Log.d(TAG, "add2ToRandomSpot: SumCheck: ");
+        Log.d(TAG, "add2ToRandomSpot");
 
         return twoToId;
     }
